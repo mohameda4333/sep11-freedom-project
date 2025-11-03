@@ -15,8 +15,11 @@
 * Then you add the input of how the user interacts with the game.
 * I will try to make a little game similar to the one I tinkered with next.
 
-### X/X/XX:
-* Text
+### 11/2/25:
+* I tinkered with my tool through jsbin. I went to the "setup" page on jsbin: (https://kaboomjs.com/doc/setup). Then I copy and pasted the code into jsbin. The result was a gray and white squared background with the text: "Hello". Then I tried adding a sprite but it gave me an error because I put the code: "addsprite.png". I realized I had to have an image with that title and add it to the code. Then it would show a green sprite centered at (120, 80).
+* I also went on the website itself and did some research:
+* I learned that downloading the code makes it easier to work with kaboom.js.
+* It reminded me of what I did in computer science because I can make sprites and give them an order. I can also place it somewhere specific based on the coordinates I put in the code.
 
 
 <!-- 
