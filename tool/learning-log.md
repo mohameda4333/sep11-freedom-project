@@ -21,6 +21,40 @@
 * I learned that downloading the code makes it easier to work with kaboom.js.
 * It reminded me of what I did in computer science because I can make sprites and give them an order. I can also place it somewhere specific based on the coordinates I put in the code.
 
+### 11/23/25:
+* I tried adding a block code to see how it works:
+```js
+kaboom()
+
+let player = add([
+    rect(40, 40),
+    pos(100, 100),
+    color(0, 0, 255)
+])
+```
+* I changed the block color from blue to red using the rgb `color(255, 0, 0)`
+* I also changed the size of the block from `(40,40)` to `(30,60)`
+* Then I learned that I can make the square move with the arrow keys:
+```js
+kaboom()
+
+let player = add([
+    rect(40, 40),
+    pos(100, 100),
+])
+
+onKeyDown("right", () => {
+    player.move(200, 0)
+})
+
+onKeyDown("left", () => {
+    player.move(-200, 0)
+})
+```
+* I tinkered with the speed and changed it from `200` to `500`
+* I also tried to make `up` and `down` keys
+* I am currently trying to research how to shoot bullets out of the character.
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
