@@ -54,7 +54,31 @@ onKeyDown("left", () => {
 * I tinkered with the speed and changed it from `200` to `500`
 * I also tried to make `up` and `down` keys
 * I am currently trying to research how to shoot bullets out of the character.
+### 12/7/25
+* I learned how to add a health bar to my sprite. I made the hp a variable and then assigned its position and health:
+```js
+let hp = 3;
 
+const hpText = add([
+    text("HP: 3"),
+    pos(20, 60),
+]);
+```
+* This adds a health bar to the sprite which is assigned to be 3 health points.
+* I also learned how to add sound effects from a youtube video. Once I assign a variable to the sound, I can play the sound depending on what I choose as the input, for example the space bar and the up arrow key:
+```js
+loadSound("shoot", "https://kaboomjs.com/examples/sounds/laser.mp3");
+loadSound("boom", "https://kaboomjs.com/examples/sounds/boom.mp3");
+
+onKeyPress("space",{
+    play("shoot");
+});
+
+onKeyPress("upArrowKey", {
+    play("boom");
+});
+```
+* Now, I am trying to learn how to add an intro the game like a title screen. I am currently trying to understand the code for it. I want the title screen to say: "Press space to begin". Then I make a code that starts the game when the user presses the space bar.
 
 <!-- 
 * Links you used today (websites, videos, etc)
