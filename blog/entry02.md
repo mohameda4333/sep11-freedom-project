@@ -1,7 +1,47 @@
 # Entry 2
-##### X/X/XX
+##### 12/15/25
 
-Text
+## Content
+I am using [kaboomjs](https://kaboomjs.com/) to make a mini game that includes a sprite shooting at targets out of a toy gun. I have been learning my tool by watching tutorials on youtube such as the [CodeMe Club](https://www.youtube.com/watch?v=_X6vPV9KiCE). This video was very useful to me in the beginning since it helped me learn the basics of my tool. The person in the video also showed an example that I used to tinker with. I made progress by taking things slowly through the basics first. For example, I added a block at a certain position that moved depending on the users input of the arrow keys:
+```js
+kaboom()
+
+let player = add([
+    rect(40, 40),
+    pos(100, 100),
+])
+
+onKeyDown("right", () => {
+    player.move(200, 0)
+})
+
+onKeyDown("left", () => {
+    player.move(-200, 0)
+})
+```
+This allowed the block to move left or right at a speed of `200` depending on what arrow key the user presses. I also learned how to add sound effects to my sprite depending on the users input. I saw this example on a youtube video and researched online on how to make this code. This is the result:
+```js
+loadSound("shoot", "https://kaboomjs.com/examples/sounds/laser.mp3");
+loadSound("boom", "https://kaboomjs.com/examples/sounds/boom.mp3");
+
+onKeyPress("space",{
+    play("shoot");
+});
+
+onKeyPress("upArrowKey", {
+    play("boom");
+});
+```
+This is just an example, but if I had a file called `laser.mp3` and `boom.mp3`, it would make a certain sound effect, (depending on what the user uses), when the user presses the `space bar` or the `up arrow key`.
+## Engineering Design Process (EDP)
+
+## Skills
+
+###
+
+###
+
+## Takeaways
 
 [Previous](entry01.md) | [Next](entry03.md)
 
