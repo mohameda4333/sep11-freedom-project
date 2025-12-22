@@ -34,15 +34,15 @@ onKeyPress("upArrowKey", {
 ```
 This is just an example, but if I had a file called `laser.mp3` and `boom.mp3`, it would make a certain sound effect, (depending on what the user uses), when the user presses the `space bar` or the `up arrow key`.
 ## Engineering Design Process (EDP)
-
+I am currently in step 5 of the engineering design process. This step is where I create the prototype. I am trying to create a mini game with kaboomjs to master the basic controls of the game such as moving with the keys and adding effects/sound depending on the users input. The next process is testing the prototype. After I learn how to make the basic controls of a mini game, I will test it and share it with my friends to see if it works well.
 ## Skills
 
-###
-
-###
-
+### Time Management
+One of the main skills I learned while learning my code was time management. I learned how to manage my time and find the free time to learn about kaboomjs. I have basketball practice and gym outside of school so I have to look for a day that I am free on to tinker with my tool.
+### Attention To Detail
+Another skill I learned to use while tinkering with my tool was attention to detail. The small mistakes I made in my code led to the entire game crashing and not responding to my keys. For example, when I tried to make the `uparrowkey` input, I put `uparowkey`. Since I misspelled the code, my sprite didn't move up when I pressed the up arrow key.
 ## Takeaways
-
+Tinkering with my tool was really fun because while I made the code for my game, I got to play with my game for a little bit and explore other games similar to mine.
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
