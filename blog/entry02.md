@@ -33,6 +33,8 @@ onKeyPress("upArrowKey", {
 });
 ```
 This is just an example, but if I had a file called `laser.mp3` and `boom.mp3`, it would make a certain sound effect, (depending on what the user uses), when the user presses the `space bar` or the `up arrow key`.
+
+   My FP goal during winter break is to officially make a mini game that is simple but is a way to foreshadow my project. The mini game will include a custom sprite with an intro to the game and the sprite will shoot mini lasers anywhere. The sprite will move and make sound effects depending on the keys inputted by the user. There might also be a scoreboard in the corner of the game in ratio form to keep track of the targets that are being successfully shot compared to the shots missed and shot in total.
 ## Engineering Design Process (EDP)
 I am currently in step 5 of the engineering design process. This step is where I create the prototype. I am trying to create a mini game with kaboomjs to master the basic controls of the game such as moving with the keys and adding effects/sound depending on the users input. The next process is testing the prototype. After I learn how to make the basic controls of a mini game, I will test it and share it with my friends to see if it works well.
 ## Skills
