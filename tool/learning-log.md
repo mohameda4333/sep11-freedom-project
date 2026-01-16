@@ -80,6 +80,31 @@ onKeyPress("upArrowKey", {
 ```
 * Now, I am trying to learn how to add an intro the game like a title screen. I am currently trying to understand the code for it. I want the title screen to say: "Press space to begin". Then I make a code that starts the game when the user presses the space bar.
 
+### 1/15/26
+* I learned how to shoot bullets out of my sprite. When the user presses the letter b, the bullet moves forward:
+```js
+onKetPress("b", () => {
+    add([
+        rect(6, 3),
+        pos(player.pos),
+        move(right, 700),
+        area(),
+        cleanup(),
+        "bullet"
+    ])
+})
+```
+* I researched how to make the bullet dissapear being shot, and I found out about the cleanup() concept. This makes the bullet dissapear after the sprite shoots it.
+* Then I also added a target for the sprite to shoot at:
+```js
+let target = add([
+    rect(40, 40),
+    pos(300, 150),
+    color(0, 255, 0),
+    area(),
+    "target"
+])
+```
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
