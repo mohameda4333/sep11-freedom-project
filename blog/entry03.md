@@ -26,7 +26,11 @@ var target = add([
 ```
 After storing the code to a variable, I made a sprite called target that looks similar to this [image](https://assets.targetimg1.com/webui/store-locator/targetlogo-6.jpeg). The `area()` concept ensures that the target sprite has a hitbox, so that the `bullet` sprite can collide with it.
 
-### Next Steps
+### Engineering Design Process
+My current stage in the Engineering Design Process is still stages 5 and 6. I am still in stage 5 because I am stil adding tweaks to the code that I tinker with so that it runs with no problems. However, I am also entering stage 6 because I am testing the code as I tweak it to make sure everything is correct. My next stage is to officially be in stage 6 where I am only testing the code and adding a few tweaks in stage 7.
+
+### Skills
+Some skills I learned while tinkering with my tool are consideration and debugging. Firstly, I learned how to debug my code and find the small errors I make. For example, I may spell something wrong in my code which would cause everything to crash. I also learned to consider everything while typing the code. For example, while I was making the code on how to shoot the `bullet` sprite, I put the collision between the two sprites into consideration so I ended up going back and finding out how to make the two sprites collide.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
