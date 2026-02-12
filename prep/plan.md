@@ -1,12 +1,22 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Kaboomjs
+## Product: Target Shooter Game
 
 ---
 
 ## Timeline
-
+* Finalize mini game (2/15)
+* Explain basic tool information (2/19)
+  * Add information about: sprites, collision, functions, and events. (2/20)
+* Add html paragraph to website (2/20)
+  * Add information about mini game (2/21)
+  * Add information about the process (2/21)
+  * Add information about the challenges (2/23)
+* Explain Javascript and HTML code (2/25)
+  * Explain CSS (2/26)
+* Compare game to other games from your tool (2/26)
+* Explain and Analyze sources that helped during tool tinkering (2/28) 
 #### MVP
 
 - [ ] Task (deadline: X)
