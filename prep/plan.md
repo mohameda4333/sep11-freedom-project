@@ -22,6 +22,7 @@
    * Add approriate text colors and fonts (3/3)
    * Sort information in organized and clean paragraphs or sections. (3/5)
  *  Add interactive butons that lead to mini game. (3/8)
+ *  Finalize all features and website. (3/12)
 #### MVP
 
 - [ ] Task (deadline: X)
