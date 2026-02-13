@@ -16,7 +16,12 @@
 * Explain Javascript and HTML code (2/25)
   * Explain CSS (2/26)
 * Compare game to other games from your tool (2/26)
-* Explain and Analyze sources that helped during tool tinkering (2/28) 
+* Explain and Analyze sources that helped during tool tinkering (2/28)
+* Beyond MVP:
+ * Add CSS features to apply background (3/1)
+  * Add approriate text colors and fonts (3/3)
+  * Sort information in organized and clean paragraphs or sections. (3/5)
+ *  Add interactive butons that lead to mini game. (3/8)
 #### MVP
 
 - [ ] Task (deadline: X)
