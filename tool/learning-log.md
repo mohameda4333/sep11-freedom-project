@@ -105,6 +105,31 @@ let target = add([
     "target"
 ])
 ```
+### 3/8/26
+* I tried to make the game more difficult overtime as the player kills the targets, so I added a loop to make the enemy go faster:
+```js
+let targetSpeed = 50
+loop(4, () => {
+  enemySpeed += 50
+})
+```
+* Since the original speed of the target is 50, the loop runs to increase the targets speed by 50 each time.
+* Then I added a health bar to the sprite. Each time it gets hurt once, it loses one health point. Its originally at 5 health points.
+* If the health is equal to 0, the game returns `gameover`.
+```js
+let health = 5
+const healthLabel = add([
+  text("hp: 5"),
+  pos(20, 50),
+])
+
+player.onCollide("enemy", () => {
+  health -= 1=
+  if (health == 0) {
+    go("gameover")
+  }
+})
+```
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
