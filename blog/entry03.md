@@ -24,8 +24,21 @@ var target = add([
     "target",
 ]);
 ```
-After storing the code to a variable, I made a sprite called target that looks similar to this [image](https://assets.targetimg1.com/webui/store-locator/targetlogo-6.jpeg). The `area()` concept ensures that the target sprite has a hitbox, so that the `bullet` sprite can collide with it.
-
+After storing the code to a variable, I made a sprite called target that looks similar to this [image](https://assets.targetimg1.com/webui/store-locator/targetlogo-6.jpeg). The `area()` concept ensures that the target sprite has a hitbox, so that the `bullet` sprite can collide with it. I also went beyond the minimum viable product for my game and researched on how to make the game harder. I wanted to know if I could add levels or bosses in the game to make the game more difficult. I didn't want it to be the same consistent gameplay the entire time. Then I found an idea to make the enemy move faster after defeating each target. Firstly, I had to make an original speed for the enemy, so I made it `50`. I set it to the variable: `targetSpeed`.
+```js
+let targetSpeed = 50
+```
+After setting an original speed, I knew that the `+=` function would increase the enemies speed by a specific amount each time but I didn't know if I should put it in a function or what to do with it. So I gave AI this prompt: `what function or concept do I use to make the speed of a sprite faster each time it dies in kaboomjs?`. It provided a function but I didn't understand it that much, even when I asked it to explain it. Then it provided an alternative concept which was to use the `loop` concept. It gave me this code:
+```js
+loop(4, () => {
+})
+```
+This was very easy to understand because it simply meant that every 4 seconds, a function would occur. So I added this code in the loop: `enemySpeed += 50`. This meant that each 4 seconds, the enemy would increase their speed by 50. This was the final code:
+```js
+loop(4, () => {
+  enemySpeed += 50
+})
+```
 ### Engineering Design Process
 My current stage in the Engineering Design Process is still stages 5 and 6. I am still in stage 5 because I am stil adding tweaks to the code that I tinker with so that it runs with no problems. However, I am also entering stage 6 because I am testing the code as I tweak it to make sure everything is correct. My next stage is to officially be in stage 6 where I am only testing the code and adding a few tweaks in stage 7.
 
