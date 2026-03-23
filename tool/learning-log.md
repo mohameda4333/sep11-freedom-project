@@ -130,6 +130,8 @@ player.onCollide("enemy", () => {
   }
 })
 ```
+### 3/23/26
+* After making the game more difficult, I wanted to try and add different guns as sprites to the game that get better each level or kill.
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
