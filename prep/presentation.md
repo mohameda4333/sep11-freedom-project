@@ -1,16 +1,24 @@
 # Presentation Plan
 
 ## Hook
-* 
+* I will give a very brief introduction to my game to hook the audience in to want to know more about the game.
+* It could be a quick sentence summary talking about the game to hype up the audience.
+* It could also just be a slight version of my game. As if it was a bootleg version of my real game to encourage the audience.
 
 ## Product
-* 
+* I will show off what I made by showcasing my game on kaboom and explaining how to play the game including all the controls and the goal.
 
 ## Process
-* 
+* I will explain my process of how I made my mini game.
+* I will include all the information needed to understand the code including:
+* the score function
+* the `bullet` sprite and how it works
+* How I made the sprites speed
+* the text in game
+* the health bar or lives lost
 
 ## Conclusion
-* 
+* I will wrap up my presentation by thanking the audience and possibly making a yellkey to my game so that everyone can play it and test it out themselves.
 
 <!-- EXAMPLE
 
