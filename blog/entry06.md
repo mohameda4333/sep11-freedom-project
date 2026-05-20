@@ -1,7 +1,12 @@
 # Entry 6
-##### X/X/XX
+##### 5/20/26
 
-Text
+## Content
+
+## Engineering Design Process
+
+## Skills
+
 
 [Previous](entry05.md) | [Next](entry07.md)
 
